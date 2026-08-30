@@ -119,6 +119,8 @@ SELECT
 	COUNT(DISTINCT order_id) AS Total_Order
 FROM pizza_sales
 GROUP BY pizza_name
+
+
 Order BY Total_Order ASC
 
 
