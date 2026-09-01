@@ -112,7 +112,7 @@ FROM pizza_sales
 GROUP BY pizza_name
 Order BY Total_Quantity ASC
 
---Bottom 5 Best Sellers by Total Orders
+--Bottom 5 Best Sellers by Total Orders;
 
 SELECT 
 	TOP 5 pizza_name, 
